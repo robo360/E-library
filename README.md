@@ -2,7 +2,7 @@
 
 A web-server built on top of a raspberry pi or any other small computer, running unix-based operating system.
 
-#Requirements
+# Requirements
 
 1. A raspberry pi with raspbian in it
 
@@ -26,15 +26,15 @@ Dnsmasq provides network infrastructure for small networks: DNS, DHCP, router ad
 
 [More info on dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html)
 
-#Turning a raspberry pi into file-server
+# Turning a raspberry pi into file-server
 
-Step 1: Install Raspbian on a raspberry Pi
+**Step 1**: Install Raspbian on a raspberry Pi
 
 For this step, Follow the official guide to install raspbian on a raspberry pi
 
 [Install Raspbian-official guide](https://www.raspberrypi.org/documentation/installation/installing-images/)
 
-Step 2:Install Apache HTTP Server and PHP
+**Step 2**:Install Apache HTTP Server and PHP
 
 After installing raspbian, install php and apache http server using the following commands.
   
@@ -43,12 +43,12 @@ After installing raspbian, install php and apache http server using the followin
   
 Note: for these commands to run correctly WIFI should be on.
 
-Step 3:Turn a raspberry pi into a stand-alone network access point
+**Step 3**:Turn a raspberry pi into a stand-alone network access point
 
 This following guide works you through installing hostapd and dnsmasq.
 
 [Install guide](https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md)
 
-Step 4: Finalize
+**Step 4**: Finalize
 	
 Download the web and copy the files into var/www/html
